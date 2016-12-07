@@ -1,74 +1,30 @@
 ---
-title: About Hagura
-layout: post
-date: 2016-11-02
+layout: page
+title: About
 ---
 
+<p class="message">
+  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+</p>
 
-![sample post]({{site.baseurl}}/images/image-3.png)
+In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
-![sample post]({{site.baseurl}}/images/image-3.png){: style="width: 100%"}
+There are currently two themes built on Poole:
 
+* [Hyde](http://hyde.getpoole.com)
+* [Lanyon](http://lanyon.getpoole.com)
 
-# Header 1
+Learn more and contribute on [GitHub](https://github.com/poole).
 
-## Header 2
+## Setup
 
-### Header 3
+Some fun facts about the setup of this project include:
 
-#### Header 4
+* Built for [Jekyll](http://jekyllrb.com)
+* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
+* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
+* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
 
-##### Header 5
+Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
 
-###### Header 6
-
-
-
-## Paragraphs
-
-These are sample paragraphs showing *italics*, **bold** and ``code`` text style. Here is an unordered  list 
-
-* Item 1
-* Item 2
-* Item 3
-
-and an ordered list
-
-1. Item 1
-2. Item 2
-3. Item 3
-
->A blockquote would look like this.
-
-> another one 
->
-> with multiple lines
-
-
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-A code block would look like this.
-{% highlight html %}
-
-<div class="nav">
-    <ul>
-        <li>About</li>
-        <li>Contact</li>
-        <li>Project</li>
-    </ul>
-</div>
-
-
-{% endhighlight %}
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-
-
-Use below code to show **Table of Contents** on a page
-
-{% highlight css %}
-* Do not remove this line (it will not be displayed) 
-{:toc}
-{% endhighlight %}
+Thanks for reading!

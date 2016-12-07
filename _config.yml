@@ -1,35 +1,26 @@
-### your site title here
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
 
-title: Webjeda Hagura
-baseurl: /hagura # name of the repository
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
 
-highlighter: rouge
-markdown: kramdown
-### exclude the instructions / write-up in the README.md
+# Setup
+title:            Hyde
+tagline:          'A Jekyll theme'
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://hyde.getpoole.com
+baseurl:          /
 
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
 
+paginate:         5
 
-# Tracker
-analytics: UA-83979019-1
+# Custom vars
+version:          2.1.0
 
-#optimization
-#compress.html
-compress_html:
-  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
-  comments: ["<!-- ", " -->"]
-  endings: [all]
-  ignore:
-    envs: [local]
-  blanklines: false
-  profile: false
-  startings: []
-  
-
-sass:
- style: compressed
-
-exclude:
-- README.md
-
-
-gems: [jekyll-seo-tag, jekyll-paginate]
+github:
+  repo:           https://github.com/poole/hyde
